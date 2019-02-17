@@ -1,0 +1,26 @@
+@font-face {
+	font-family: headFont;
+	src: url(../assets/nameHolland.woff);
+}
+
+@font-face {
+	font-family: navbarFont;
+	src: url(../assets/navbar.woff);
+}
+
+@font-face {
+	font-family: introFont;
+	src: url(../assets/intro.woff);
+}
+
+h3 {
+	font-family: headFont, "Times New Roman";
+}
+
+.navbar {
+	font-family: navbarFont;
+}
+
+.containerIntro {
+	font-family: introFont;
+}

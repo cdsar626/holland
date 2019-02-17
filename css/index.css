@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  min-width: 490px;
+}
+.redBg {
+  background-color: #a41d33;
+  color: white;
+  padding-bottom: 3em;
+}
+.nameHolland {
+  color:#D2F0F7;
+}
+
+.containerIntro {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5vw;
+  justify-content: space-between;
+}
+
+.introText, .introImg {
+  flex: 45%;
+}
+
+.introImg {
+  text-align: center;
+}
+
+.introImg img{
+  width: 45vw;
+}
+
+.introText {
+  font-size: 2em;
+}
+
+.introDescription {
+  width: 23ch;
+}
+
+.gifText {
+  margin: auto;
+  width: 30ch;
+  font-style: italic;
+}
+
+.containerLatestWork {
+  margin: 0 4vw;
+}
+
+.titleLatestWork, .titleLatestWork hr, .seeMore {
+  color:#A5DDEA;
+  letter-spacing: 0.1em;
+}
+
+.blockLatestWork {
+  margin-top: 1em;
+  fill: #F2F0EC;
+  height: 470px; 
+}
+
+.textLatestWork {
+  font-family: introFont;
+  font-size: 1.75em;
+}
+
+.latestWork {
+  margin-top: -450px;
+  text-align: center;
+}
+.latestWork * {
+  display: block;
+  margin: auto;
+}
+
+.imgWork {
+  z-index: 2;
+  margin-top: -500px;
+}
+
+.imgWork2 {
+  padding-right: 115px;
+  margin-top: 230px;
+  z-index: -1;
+}
+
+svg {
+  max-width: 90vw;
+}
+
+.seeMore {
+  font-family: headFont;
+  text-align: right;
+  margin-top: 4em;
+}
