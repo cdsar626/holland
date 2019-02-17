@@ -110,6 +110,7 @@ svg {
 
 .seeMore a {
   text-decoration: none;
+  transition: color 0.2s linear;
 }
 
 .seeMore a:hover {

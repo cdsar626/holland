@@ -29,6 +29,8 @@ header {
 .navbar li a {
   color: initial;
   text-decoration: none;
+  transition: color 0.2s linear;
+
 }
 
 .navbar li a:hover {
