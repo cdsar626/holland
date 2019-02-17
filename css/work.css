@@ -20,12 +20,15 @@ a {
   justify-content: center;
 }
 
+.containerWorks a {
+  margin: 1em;
+}
+
 .work {
   flex: 45%;
   width: 40vw;
   height: 30vw;
   background-color: #30bdff;
-  margin: 1em;
   transition: filter 0.2s ease;
   text-align: center;
 }

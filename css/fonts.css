@@ -13,6 +13,11 @@
 	src: url(../assets/intro.woff);
 }
 
+@font-face {
+	font-family: helvetica-w01-light;
+	src: url(../assets/helvetica-w01-light.woff);
+}
+
 h3 {
 	font-family: headFont, "Times New Roman";
 }

@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  min-width: 490px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #D2F0F7;
+}
+
+.nameHolland {
+  color: #D2F0F7;
+}
+
+.mainImg {
+  fill: #28AADC;
+  text-align: center;
+  height: 670px;
+  margin-bottom: 100px;
+  line-height: 9em;
+}
+
+svg {
+  max-width: 90vw;
+  height: 670px;
+}
+
+.contentMainImg {
+  margin-top: -650px;
+  font-family: introFont;
+  font-size: 2em;
+  color: white;
+}
+
+.contentMainImg * {
+  display: block;
+  margin: auto;
+}
+
+.imgLogo {
+  filter: invert(100%);
+}
+
+.imgPhone {
+  margin-top: -470px;
+}
+
+.imgHeadset {
+  padding-right: 300px;
+  margin-top: 370px;
+}
+
+.contentProject {
+  width: 70vw;
+  min-width: 50ch;
+  margin: auto;
+  font-family: helvetica-w01-light;
+}
+
+.summaryData {
+  display: flex;
+}
+
+.leftData, .rightData {
+  margin: 0 0.5em;
+  flex: 45%;
+}
+
+.text {
+  margin-top: 5em;
+  text-align: justify;
+}
+
+.summaryData .leftData .text, .summaryData .rightData .text {
+  margin: 0;
+}
+
+.media {
+  display: block;
+  margin: auto;
+  max-width: 80vw;
+}
+
+.bottomNavbar {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 5em;
+}
+
+.bottomNavbar ul li a {
+  margin: 0 1em;
+  color: #E3E3E3;
+  transition: color 0.2s linear;
+}
+
+.bottomNavbar ul li a:hover {
+  color: black;
+  transition: color 0.2s linear;
+}
