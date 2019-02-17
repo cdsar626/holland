@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color:#a41d33;
+}
+
+.containerWorks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: auto;
+  justify-content: center;
+}
+
+.work {
+  flex: 45%;
+  width: 40vw;
+  height: 30vw;
+  background-color: #30bdff;
+  margin: 1em;
+  transition: filter 0.2s ease;
+  text-align: center;
+}
+
+.workTitle {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 3em;
+  background-color: #a41d33;
+  visibility: hidden;
+  position: absolute;
+  float: left;
+  padding: 0.4em 2em;
+  z-index: 2;
+}
+
+.workImg {
+  height: 100%;
+  margin: auto;
+}
+
+.work:hover {
+  cursor: pointer;
+  filter: opacity(70%);
+  transition: filter 0.2s ease;
+}
+
+.work:hover .workTitle {
+  visibility: initial;
+}
+
+.workUV::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: -1;
+  background: url(../assets/newWork.png) contain no-repeat;
+}
+
+.workMelvin {
+  background: url(../assets/bullet-bar-cuff.webp);
+}
+
+.workG2 {
+  background: url(../assets/1c5e6f_5312a62085644a24adf7ca91836ff824~mv2_d_4000_3000_s_4_2.webp);
+}
+
+.workSwift {
+  background-color: #4dbc89;
+}
+
+.workSwift::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: -1;
+  background: url(../assets/CS2frontpage-01.webp) bottom no-repeat;
+}
+
+.workCleo {
+  background-color: #a1e2f1;
+}
+
+.workCleo::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: -1;
+  background: url(../assets/cleocomputer.webp) center no-repeat;
+}
+
+.workLogos {
+  background-color: #f2f0ec;
+}
+
+.workLogos::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: -1;
+  background: url(../assets/Roityappmockup.webp) center no-repeat;
+}
