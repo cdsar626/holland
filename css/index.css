@@ -2,12 +2,24 @@ body {
   margin: 0;
   min-width: 490px;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .redBg {
   background-color: #a41d33;
   color: white;
   padding-bottom: 3em;
 }
 .nameHolland {
+  color:#D2F0F7;
+}
+
+.navbar li a {
+  color: white;
+}
+
+.navbar li a:hover {
   color:#D2F0F7;
 }
 
@@ -28,6 +40,7 @@ body {
 
 .introImg img{
   width: 45vw;
+  pointer-events: none;
 }
 
 .introText {
@@ -48,9 +61,10 @@ body {
   margin: 0 4vw;
 }
 
-.titleLatestWork, .titleLatestWork hr, .seeMore {
+.titleLatestWork, .titleLatestWork hr, .seeMore, .seeMore a {
   color:#A5DDEA;
   letter-spacing: 0.1em;
+  font-size: 1.5em;
 }
 
 .blockLatestWork {
@@ -91,5 +105,14 @@ svg {
 .seeMore {
   font-family: headFont;
   text-align: right;
-  margin-top: 4em;
+  margin-top: 5em;
+}
+
+.seeMore a {
+  text-decoration: none;
+}
+
+.seeMore a:hover {
+  color: #a41d33;
+  transition: color 0.2s linear;
 }
