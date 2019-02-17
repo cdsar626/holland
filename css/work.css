@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  min-width: 425px;
 }
 
 a {
@@ -39,6 +40,7 @@ a {
   float: left;
   padding: 0.4em 2em;
   z-index: 2;
+  max-width: 40vw;
 }
 
 .workImg {
@@ -56,23 +58,15 @@ a {
   visibility: initial;
 }
 
-.workUV::after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: block;
-  z-index: -1;
-  background: url(../assets/newWork.png) contain no-repeat;
-}
-
 .workMelvin {
-  background: url(../assets/bullet-bar-cuff.webp);
+  background: url(../assets/bullet-bar-cuff.webp) center no-repeat;
+  background-size: contain;
+
 }
 
 .workG2 {
-  background: url(../assets/1c5e6f_5312a62085644a24adf7ca91836ff824~mv2_d_4000_3000_s_4_2.webp);
+  background: url(../assets/1c5e6f_5312a62085644a24adf7ca91836ff824~mv2_d_4000_3000_s_4_2.webp) center no-repeat;
+  background-size: contain;
 }
 
 .workSwift {
@@ -88,6 +82,7 @@ a {
   display: block;
   z-index: -1;
   background: url(../assets/CS2frontpage-01.webp) bottom no-repeat;
+  background-size: contain;
 }
 
 .workCleo {
@@ -103,6 +98,7 @@ a {
   display: block;
   z-index: -1;
   background: url(../assets/cleocomputer.webp) center no-repeat;
+  background-size: contain;
 }
 
 .workLogos {
@@ -118,4 +114,14 @@ a {
   display: block;
   z-index: -1;
   background: url(../assets/Roityappmockup.webp) center no-repeat;
+  background-size: contain;
+
+}
+
+@media (max-width: 600px) {
+  .work {
+    flex: 90%;
+    width: 80vw;
+    height: 70vw;
+  }
 }
