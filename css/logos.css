@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  min-width: 490px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+svg {
+  max-width: 85vw;
+  height: 870px;
+}
+
+.navbar li a:hover {
+  color:#D2F0F7;
+}
+.mainImg {
+  fill: #f2f0ec;
+  text-align: center;
+  height: 670px;
+  margin-bottom: 220px;
+  line-height: 9em;
+}
+
+.contentMainImg {
+	margin-top: -870px;
+}
+
+.imgLogo1, .imgLogo2 {
+	display: block;
+	margin: 100px auto;
+}
