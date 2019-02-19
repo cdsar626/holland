@@ -47,6 +47,7 @@ svg {
 .imgWork {
   margin-top: -2em;
   max-width: 95vw;
+  pointer-events: none;
 }
 
 .contentProject {
@@ -89,7 +90,6 @@ svg {
 
 .scan {
   transform: rotate3d(0,0,1,-90deg);
-  pointer-events: none;
   max-height: 95vw;
 }
 
