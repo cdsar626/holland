@@ -88,11 +88,6 @@ svg {
   margin-bottom: 100px;
 }
 
-.scan {
-  transform: rotate3d(0,0,1,-90deg);
-  max-height: 95vw;
-}
-
 .italic {
   font-style: italic;
   display: inline-block;
