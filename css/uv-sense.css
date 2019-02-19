@@ -66,8 +66,11 @@ svg {
 }
 
 .leftData, .rightData {
-  margin: 0 0.5em;
   flex: 45%;
+}
+
+.rightData {
+  margin-left: 10vw;
 }
 
 .text {

@@ -85,7 +85,6 @@ a {
   display: block;
   z-index: -1;
   background: url(../assets/CS2frontpage-01.webp) bottom no-repeat;
-  background-size: contain;
 }
 
 .workCleo {
@@ -101,7 +100,6 @@ a {
   display: block;
   z-index: -1;
   background: url(../assets/cleocomputer.webp) center no-repeat;
-  background-size: contain;
 }
 
 .workLogos {
@@ -117,8 +115,6 @@ a {
   display: block;
   z-index: -1;
   background: url(../assets/Roityappmockup.webp) center no-repeat;
-  background-size: contain;
-
 }
 
 @media (max-width: 600px) {
@@ -126,5 +122,22 @@ a {
     flex: 90%;
     width: 80vw;
     height: 70vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .workLogos::after {
+    background-size: contain;
+  }
+
+  .workCleo::after {
+    background-size: contain;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .workSwift::after {
+    background-size: contain;
   }
 }

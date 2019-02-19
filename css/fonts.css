@@ -17,6 +17,10 @@
 	font-family: helvetica-w01-light;
 	src: url(../assets/helvetica-w01-light.woff);
 }
+@font-face {
+	font-family: Sackers-Gothic;
+	src: url(../assets/Sackers-Gothic.woff);
+}
 
 h3 {
 	font-family: headFont, "Times New Roman";
