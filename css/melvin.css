@@ -9,15 +9,19 @@ a {
 }
 
 .navbar li a:hover {
-  color: #A5DDEA;
+  color: #a41d33;
+}
+
+.nameHolland {
+  color: #a41d33;
 }
 
 
 .firstView {
-  fill: #a41d33;
+  fill: #595737;
   text-align: center;
-  height: 820px;
-  line-height: 6em;
+  height: 860px;
+  line-height: 4em;
 }
 
 svg {
@@ -37,17 +41,18 @@ svg {
   transform: translate3d(-0.25em, 0.8em, 0);
 }
 
+.overTextWork {
+  font-family: navbarFont;
+}
+
 .textTitleWork {
   display: inline-block;
-  font-family: navbarFont;
+  font-family: introFont;
   font-size: 2em;
 }
 .textWork {
   font-family: introFont;
-  font-style: italic;
-  width: 30ch;
-  line-height: 1em;
-  margin: 2em auto !important;
+  margin-bottom: 2em !important;
 }
 
 .contentMainImg * {
@@ -91,6 +96,12 @@ svg {
   font-size: 0.5em;
   color: #605E5E;
   line-height: 1em;
+}
+.footerTextContent {
+  display: block;
+  text-align: center;
+  font-size: 0.75em;
+  line-height: 3em;
 }
 
 .contentProject {
@@ -139,4 +150,25 @@ svg {
   font-style: italic;
   display: inline-block;
   margin: 1em 0;
+}
+
+.bottomNavbar {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 5em;
+}
+
+.bottomNavbar ul {
+  padding: 0;
+}
+
+.bottomNavbar ul li a {
+  margin: 0 1em;
+  color: #E3E3E3;
+  transition: color 0.2s linear;
+}
+
+.bottomNavbar ul li a:hover {
+  color: black;
+  transition: color 0.2s linear;
 }

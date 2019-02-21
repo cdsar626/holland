@@ -94,6 +94,10 @@ svg {
   margin-top: 5em;
 }
 
+.bottomNavbar ul {
+  padding: 0;
+}
+
 .bottomNavbar ul li a {
   margin: 0 1em;
   color: #E3E3E3;

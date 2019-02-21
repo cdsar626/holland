@@ -22,6 +22,11 @@
 	src: url(../assets/Sackers-Gothic.woff);
 }
 
+@font-face {
+	font-family: Roboto-Thin;
+	src: url(../assets/Roboto-Thin.woff);
+}
+
 h3 {
 	font-family: headFont, "Times New Roman";
 }

@@ -1,0 +1,72 @@
+/* slideshow made by @cdsar626 */
+.slideshow-active {
+  border: skyblue solid 2px;
+  transform: scale(1.1);
+}
+
+.slideshow-left {
+  position: absolute;
+  float: left;
+  margin-top: 31.5vh;
+  margin-left: 15vw;
+  height: 7vh;
+  width: 7vh;
+  border-top: 4px solid rgba(0,0,0,0.4);
+  border-right: 4px solid rgba(0,0,0,0.4);
+  transform: rotate3d(0,0,1,-135deg);
+}
+.slideshow-left:hover {
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+  cursor: pointer;
+}
+
+.slideshow-right {
+  float: right;
+  margin-top: -38.5vh;
+  margin-right: 15vw;
+  height: 7vh;
+  width: 7vh;
+  border-top: 4px solid rgba(0,0,0,0.4);
+  border-right: 4px solid rgba(0,0,0,0.4);
+  transform: rotate3d(0,0,1,45deg);
+}
+.slideshow-right:hover {
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+  cursor: pointer;
+}
+.slideshow-picture {
+  margin: auto;
+}
+.slideshow-picture img {
+  display: block;
+  margin: auto;
+  height: 70vh;
+  max-width: 80vw;
+}
+
+.slideshow-thumbs {
+  display: block;
+  width: fit-content;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.slideshow-thumbs-picture {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 10vw;
+  height: 10vw;
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px;
+  background-size: cover;
+}
+
+.slideshow-thumbs-picture:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
