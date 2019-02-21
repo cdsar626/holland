@@ -6,11 +6,9 @@ let picUrls = {};
 function slideshow(target, urls) {
   picUrls[target] = urls;
   let div = document.getElementsByClassName(target);
-  console.log(target);
   if (div.length) {
     div = div[0];
     div.className = div.className + ' slideshow-box';
-    console.log(div);
     let finalHtml = `
     <div class="slideshow-picture">
       <div class="slideshow-left" onclick="prevbg('${target}')"></div>
@@ -30,13 +28,11 @@ function slideshow(target, urls) {
 }
 
 function changebg(ev, trgt, active) {
-  console.log(ev);
   let old = document.getElementsByClassName('slideshow-active')[0];
   let oldClasses = old.className.split(' slideshow-active');
   old.className = oldClasses[0]+oldClasses[1];
   ev.className += ' slideshow-active';
   let pic = document.getElementsByClassName('mainPicture'+trgt)[0];
-  console.log(pic);
   pic.src = ev.style.backgroundImage.split('"')[1];
   slideshow_picture_active = active;
 }
@@ -46,7 +42,6 @@ function nextbg(trgt) {
   let oldClasses = old.className.split(' slideshow-active');
   old.className = oldClasses[0]+oldClasses[1];
   let pic = document.getElementsByClassName('mainPicture'+trgt)[0];
-  console.log(picUrls[trgt]);
   slideshow_picture_active = (slideshow_picture_active + 1)% picUrls[trgt].length;
   pic.src = picUrls[trgt][slideshow_picture_active];
   let next = document.getElementsByClassName('slideshow-thumbs-picture')[slideshow_picture_active];
@@ -58,7 +53,6 @@ function prevbg(trgt) {
   let oldClasses = old.className.split(' slideshow-active');
   old.className = oldClasses[0]+oldClasses[1];
   let pic = document.getElementsByClassName('mainPicture'+trgt)[0];
-  console.log(picUrls[trgt]);
   slideshow_picture_active = (slideshow_picture_active == 0 ? picUrls[trgt].length : slideshow_picture_active) - 1;
   pic.src = picUrls[trgt][slideshow_picture_active];
   let next = document.getElementsByClassName('slideshow-thumbs-picture')[slideshow_picture_active];
